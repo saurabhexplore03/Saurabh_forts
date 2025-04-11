@@ -1,0 +1,91 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #000;
+  color: #eee;
+}
+
+.navbar {
+  background: #111;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.navbar a {
+  color: #00ff88;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.green-theme {
+  background: url('assets/images/forest-ai-background.jpg') no-repeat center center/cover;
+  color: #00ff88;
+}
+
+.intro {
+  padding: 3rem 2rem;
+  background: #111;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.card {
+  background: #1a1a1a;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card h3 a {
+  color: #00ff88;
+  text-decoration: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.grid img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+section {
+  padding: 2rem;
+}
+
+footer {
+  background: #111;
+  text-align: center;
+  color: #888;
+  padding: 1rem;
+}
